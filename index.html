@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changrui Liu's Weekly Reflection Journal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>My Learning Ledger</h1>
+            <p>A weekly journal of growth, challenges, and discovery.</p>
+        </div>
+    </header>
+
+    <div class="container main-content">
+
+        <main>
+            <article class="post">
+                <h2>Week 3: Putting Theory into Practice - Building My First Interactive Component</h2>
+                <p class="post-meta">Published on: September 7, 2025</p>
+
+                <h3>1. Key Learning Moments</h3>
+                <p>
+                    This week, the focus shifted entirely from theory to practice. The activity that resonated most was building a simple to-do list application. This process gave me a deep understanding of how different concepts connect: HTML for structure, CSS for style, and JavaScript as the glue that brings it to life. For the first time, I clearly felt the power of DOM manipulation—dynamically creating, reading, updating, and deleting (CRUD) elements on the page with JavaScript. It was more exciting than any isolated exercise before it.
+                </p>
+
+                <h3>2. Personal Connections</h3>
+                <p>
+                    This hands-on project connects directly to my long-term goal of becoming a front-end developer. It was no longer an abstract code snippet but a tangible 'product' I could see and interact with. This small success significantly boosted my confidence and made me believe in my ability to turn ideas into reality. It also got me thinking about my personal portfolio; while this to-do list is simple, it serves as a cornerstone for the more complex applications I plan to build.
+                </p>
+
+                <h3>3. Challenges and Growth</h3>
+                <p>
+                    The biggest challenge appeared when handling user input and event listeners. Initially, my code worked for adding new tasks, but when I tried to delete a specific one, it would either delete the wrong item or not react at all. I spent an entire afternoon using `console.log()` to trace the values of variables and the execution flow of my functions step-by-step. I eventually discovered a logical error in how I was getting the index of the clicked element. While the process of fixing this bug was frustrating, it taught me how to debug systematically and showed me the importance of using the browser's developer tools. This was where I experienced the most growth.
+                </p>
+
+                <h3>4. AI Tool Documentation</h3>
+                <p>
+                    I used <strong>GitHub Copilot</strong> to assist with coding during this challenge. When I got stuck on a tricky JavaScript function, instead of asking it to write the entire code, I first wrote my goal in a comment (e.g., `// function to find and remove an item from the todos array by its id`). Copilot then generated a very clean and efficient code suggestion. I carefully studied its suggested code and compared it to my original approach. This not only solved my problem but also taught me a more optimized way to write it. In this context, it acted like a senior pair programmer.
+                </p>
+            </article>
+            <article class="post">
+                <h2>Week 2: The Nuances of AI</h2>
+                <p class="post-meta">Published on: August 31, 2025</p>
+
+                <h3>1. Key Learning Moments</h3>
+                <p>
+                    This week, the concept of 'asynchronous operations' in JavaScript finally clicked. The discussion around the event loop and how callbacks, promises, and `async/await` all interact was a major breakthrough. The activity where we had to refactor a callback-heavy function to use `async/await` was particularly insightful; it demonstrated the dramatic improvement in readability and maintainability.
+                </p>
+
+                <h3>2. Personal Connections</h3>
+                <p>
+                    This connects directly to my goal of building more responsive and efficient web applications. In past projects, I've run into issues with slow, blocking operations that froze the user interface. Understanding asynchronicity gives me the tools to prevent that, which will be critical for the personal portfolio project I'm planning.
+                </p>
+
+                <h3>3. Challenges and Growth</h3>
+                <p>
+                    My main challenge was debugging a promise chain that wasn't resolving in the order I expected. I spent a couple of hours trying to console.log my way through it. I worked through this by drawing out the execution flow on a whiteboard, step-by-step. This visual approach helped me identify a `.then()` block that was missing a `return` statement, which broke the chain. It was a frustrating but valuable lesson in careful debugging.
+                </p>
+
+                <h3>4. AI Tool Documentation</h3>
+                <p>
+                    I used **Google's Gemini** this week to enhance my reflection. After struggling to articulate my challenge, I prompted Gemini: "Explain the common pitfalls of JavaScript promise chains in simple terms." Its clear explanation, which included the 'missing return' issue, helped me structure my thoughts and write the 'Challenges and Growth' section with more clarity and technical accuracy.
+                </p>
+            </article>
+            <article class="post">
+                <h2>Week 1: Foundations of AI</h2>
+                <p class="post-meta">Published on: August 24, 2025</p>
+
+                <h3>1. Key Learning Moments</h3>
+                <p>
+                    The most resonant concept this week was the fundamental difference between 'declarative' and 'imperative' programming paradigms. Seeing the same problem solved both ways highlighted how a declarative approach (like in HTML or SQL) focuses on the 'what', while an imperative approach (like in vanilla C) focuses on the 'how'. The in-class discussion comparing React components (declarative) to jQuery DOM manipulation (imperative) was a real lightbulb moment.
+                </p>
+
+                <h3>2. Personal Connections</h3>
+                <p>
+                    This relates to my interest in user interface design. A declarative mindset seems much more aligned with designing components and states, rather than manually writing step-by-step instructions to change every little thing on the screen. It feels like a more organized and scalable way to think about building complex UIs.
+                </p>
+
+                <h3>3. Challenges and Growth</h3>
+                <p>
+                    I found it difficult at first to grasp the scope of variables in our initial coding exercises. I kept declaring variables inside loops, expecting them to be accessible outside, which led to several errors. I worked through it by reading the official documentation and deliberately practicing with small, isolated code snippets until the rules of block-level vs. function-level scope became second nature.
+                </p>
+
+                <h3>4. AI Tool Documentation</h3>
+                <p>
+                    I used **ChatGPT** to help brainstorm analogies for the declarative vs. imperative concept. I prompted it to "Provide five real-world analogies to explain declarative vs. imperative programming." It gave me several useful examples (like ordering a pizza vs. giving the chef a step-by-step recipe), which helped solidify my understanding and gave me a great way to explain it in my notes.
+                </p>
+            </article>
+
+        </main>
+
+        <aside>
+            <div class="sidebar-widget">
+                <h3>About Me</h3>
+                <p>Welcome to my weekly reflection journal! I'm Changrui Liu, a passionate learner interested in [Your Interests, e.g., software development, data science, UX design]. This blog is my space to document my journey through [Your Course/Program/Field].</p>
+            </div>
+            <div class="sidebar-widget">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#">Email Me</a></li>
+                    <li><a href="#">My LinkedIn</a></li>
+                    <li><a href="#">My GitHub</a></li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Changrui Liu. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
