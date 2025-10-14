@@ -22,6 +22,54 @@
 
         <main>
             <article class="post">
+                <h2>Week 8: Refactoring and Improving the User Experience</h2>
+                <p class="post-meta">Published on: October 26, 2025</p>
+
+                <h3>1. Key Learning Moments</h3>
+                <p>
+                    This week, I learned that "working code" is not always "good code." I learned about **refactoring**, which means rewriting your code to make it cleaner and easier to understand, without changing what it does. I had one very long function that handled everything. I broke it down into several smaller functions, each with one specific job. This makes the code much more organized.
+                </p>
+
+                <h3>2. Personal Connections</h3>
+                <p>
+                    Cleaning up my code made me feel more like a professional developer. It's not just about making something work; it's about building it well. I feel proud of my project now, not just because it works, but because the code behind it is neat and tidy. If I look at this code in six months, I will still be able to understand it easily.
+                </p>
+
+                <h3>3. Challenges and Growth</h3>
+                <p>
+                    At first, I was scared to change my code because it was already working, and I was afraid I would break it. My solution was to change only one small thing at a time and test it carefully. I also added small user experience (UX) improvements, like making the "Start" button change color and become unclickable after the timer begins. This gives the user clear feedback and makes the app feel more polished.
+                </p>
+
+                <h3>4. AI Tool Documentation</h3>
+                <p>
+                    I used <strong>GitHub Copilot Chat</strong> for refactoring. I copied my big, messy function into the chat and asked, "Can you help me refactor this JavaScript function to be cleaner?" Copilot suggested breaking it into three smaller functions and even gave me names for them. It helped me see a better way to structure my logic, acting like a senior developer giving me advice.
+                </p>
+            </article>
+            <article class="post">
+                <h2>Week 7: Adding Key Features - Sounds and Rests</h2>
+                <p class="post-meta">Published on: October 19, 2025</p>
+
+                <h3>1. Key Learning Moments</h3>
+                <p>
+                    The most important lesson this week was managing the app's "state." I learned that my app can be in different modes: a "focus mode," a "rest mode," or an "idle mode." I had to write code that always knows which state the app is in. I also learned how to use `Math.random()` in JavaScript to make the reminder sounds play at unpredictable times during the focus session.
+                </p>
+
+                <h3>2. Personal Connections</h3>
+                <p>
+                    Adding the random reminder sounds was exciting because it's the unique feature that makes my app different from other timers. When the first sound played, the app finally felt complete and matched the original idea in my head. Now that the 20-minute rest timer also works, it feels like a real tool I can use every day to improve my own focus.
+                </p>
+
+                <h3>3. Challenges and Growth</h3>
+                <p>
+                    My biggest challenge was a bug with the timers. Sometimes, a random sound would try to play right after the main 90-minute timer had finished. This caused a small glitch. I had to write extra checks in my code to make sure the reminder sounds only play during the "focus mode." This taught me to think about these "edge cases" (small, unexpected problems) and to write stronger code to prevent them.
+                </p>
+
+                <h3>4. AI Tool Documentation</h3>
+                <p>
+                    To figure out how to play sounds, I used <strong>Perplexity AI</strong>. I asked a simple question: "How to play a sound file in JavaScript with one function call?" It gave me a clear code snippet showing how to create an `Audio` object and use the `.play()` method. This was very helpful and saved me from having to read long articles.
+                </p>
+            </article>
+            <article class="post">
                 <h2>Week 6: Making it Work - Adding the Timer Logic with JavaScript</h2>
                 <p class="post-meta">Published on: October 12, 2025</p>
 
@@ -216,6 +264,7 @@
 </body>
 
 </html>
+
 
 
 
