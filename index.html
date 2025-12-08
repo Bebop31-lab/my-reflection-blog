@@ -22,6 +22,30 @@
 
         <main>
             <article class="post">
+                <h2>Week 14: The React Lifecycle - Mastering "useEffect"</h2>
+                <p class="post-meta">Published on: December 7, 2025</p>
+
+                <h3>1. Key Learning Moments</h3>
+                <p>
+                    This week, I learned about the `useEffect` hook. This was much harder than `useState`. I learned that React components are constantly "rendering" (refreshing). If I put a timer directly in my component, it creates a new timer every millisecond! `useEffect` lets me tell React: "Only do this setup one time when the component first appears."
+                </p>
+
+                <h3>2. Personal Connections</h3>
+                <p>
+                    I tried to rebuild the countdown timer from my Focus Clock app using React. It was very different from the old way. In Vanilla JavaScript, I just wrote `setInterval` once and forgot about it. In React, I had to be very careful to "clean up" the timer (using `clearInterval`) when the component disappears. It feels much stricter, but I can see how it prevents memory leaks and bugs.
+                </p>
+
+                <h3>3. Challenges and Growth</h3>
+                <p>
+                    My biggest challenge was the "Infinite Loop." I made a mistake where my timer updated the state, which caused the component to re-render, which caused the timer to start again... crashing my browser. I learned about the "Dependency Array" (the `[]` at the end of `useEffect`). It is a powerful tool to control exactly <em>when</em> code should run.
+                </p>
+
+                <h3>4. AI Tool Documentation</h3>
+                <p>
+                    I used <strong>Perplexity AI</strong> to explain the specific syntax. I asked, "Why is my React useEffect running infinitely?" It explained the concept of the dependency array and showed me how to pass `[]` to make it run only once on mount. This explanation saved me from being stuck in a crash loop.
+                </p>
+            </article>
+            <article class="post">
                 <h2>Week 13: Rebuilding in React - Understanding "State"</h2>
                 <p class="post-meta">Published on: November 30, 2025</p>
 
@@ -384,6 +408,7 @@
 </body>
 
 </html>
+
 
 
 
